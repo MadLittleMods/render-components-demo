@@ -1,0 +1,30 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body
+{
+	background: #bbbbbb;
+	
+	font-family: Arial;
+}
+
+
+.main-list-container
+{
+	display: inline-block;
+
+	padding: 4px;
+
+	border: 1px solid #000000;
+	border-radius: 4px;
+}
+
+.main-list
+{
+	
+
+}

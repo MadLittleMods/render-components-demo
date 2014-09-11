@@ -1,0 +1,37 @@
+<div class="">
+	Main
+</div>
+
+<div class="main-list-container">
+	<ul class="main-list">
+
+		{{!--
+
+		{{#@helpers/include.helper testingthing="asfdafsdafssfd"}}
+			{{@helpers/renderer.helper module="modules/main/modules/list-item.module" }}
+		{{/helpers/include.helper}}
+
+		{{#@helpers/include.helper "lorem" testingthing="asfdafsdafssfd"}}
+			{{@helpers/renderer.helper module="modules/main/modules/list-item.module" }}
+		{{/helpers/include.helper}}
+
+		{{#@helpers/include.helper "ipsum"}}
+			{{@helpers/renderer.helper module="modules/main/modules/list-item.module" }}
+		{{/helpers/include.helper}}
+
+		 --}}
+
+
+		{{#each listItems}}
+			{{@helpers/renderer.helper module="modules/main/modules/list-item.module" }}
+		{{/each}}
+
+		{{#with "Another defined in the template"}}
+			{{@helpers/renderer.helper module="modules/main/modules/list-item.module" }}
+		{{/with}}
+	</ul>
+</div>
+
+<div>
+	<button class="js-add-list-item">Add Item</button>
+</div>
