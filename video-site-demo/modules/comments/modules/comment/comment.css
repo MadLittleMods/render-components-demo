@@ -1,0 +1,20 @@
+.comment {
+  display: flex;
+  align-items: flex-start; }
+
+.comment-body {
+  flex: 1; }
+
+.comment {
+  margin: 8px 0; }
+
+.comment-avatar {
+  max-width: 64px;
+  margin-right: 8px; }
+
+.comment-name {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 110%;
+  font-weight: bold; }
+

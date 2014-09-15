@@ -1,0 +1,36 @@
+@import "scss/includes/common";
+
+.comment
+{
+	@extend %media;
+
+	margin: 8px 0;
+}
+
+.comment-avatar
+{
+	@extend %media-figure;
+	
+	max-width: 64px;
+	margin-right: 8px;
+}
+
+.comment-body
+{
+	@extend %media-body;
+}
+
+.comment-name
+{
+	margin-top: 0;
+	margin-bottom: 8px;
+
+	font-size: 110%;
+	font-weight: bold;
+}
+
+.comment-message
+{
+	
+}
+

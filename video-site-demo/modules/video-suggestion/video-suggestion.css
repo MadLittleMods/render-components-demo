@@ -1,0 +1,26 @@
+.video-suggestion {
+  display: flex;
+  align-items: flex-start; }
+
+.video-suggestion-body {
+  flex: 1; }
+
+.video-suggestion {
+  padding: 4px 0;
+  border-bottom: 1px solid #000000;
+  transition: all 0.1s linear; }
+  .video-suggestion:hover {
+    background: rgba(255, 255, 255, 0.1); }
+
+.video-suggestion-thumbnail {
+  max-width: 64px;
+  margin-right: 4px; }
+
+.video-suggestion-title {
+  margin-top: 0;
+  margin-bottom: 4px;
+  overflow: hidden;
+  font-size: 130%;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis; }

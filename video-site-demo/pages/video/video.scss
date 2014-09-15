@@ -1,0 +1,83 @@
+@import "scss/includes/common";
+
+
+.player-wrapper
+{
+	position: relative;
+
+	width: 100%;
+	height: 200px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* align items in Main Axis */
+	align-items: center; /* align items in Cross Axis */
+	align-content: flex-start; /* Extra space in Cross Axis */
+
+	background: #222222;
+}
+
+.player-wrapper video
+{
+	height: 100% !important;
+}
+
+.player-wrapper-resize-handle
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* align items in Main Axis */
+	align-items: center; /* align items in Cross Axis */
+	align-content: flex-start; /* Extra space in Cross Axis */
+
+	width: 100%;
+	height: 7px;
+
+	background: #666666;
+	border-top: 1px solid #222222;
+	border-bottom: 1px solid #222222;
+
+	cursor: n-resize;
+}
+
+.player-wrapper-resize-handle svg
+{
+	display: block;
+	max-height: 100%;
+}
+
+
+
+.bottom-area
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; /* align items in Main Axis */
+	align-items: stretch; /* align items in Cross Axis */
+	align-content: flex-start; /* Extra space in Cross Axis */
+}
+
+.info-wrapper
+{
+	width: 75%;
+	margin-right: 8px;
+}
+
+
+
+.info-box
+{
+	@extend %box;
+}
+
+.comments
+{
+	@extend %box;
+}
+
+.suggestion-sidebar
+{
+	@extend %box;
+
+	width: 25%;
+}

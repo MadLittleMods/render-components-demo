@@ -1,0 +1,30 @@
+
+// The good ol' media object standard. Image avatar next to some text
+%media
+{
+	display: flex;
+	align-items: flex-start;
+}
+
+%media-figure
+{
+	// You can add some margin-right to your figure to add some space
+}
+
+%media-body
+{
+	flex: 1;
+}
+
+
+
+
+%box
+{
+	margin: 8px 0;
+	padding: 8px;
+
+	background: #aaaaaa;
+	border: 1px solid #bbbbbb;
+	box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.75);
+}

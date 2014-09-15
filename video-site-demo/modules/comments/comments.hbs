@@ -1,0 +1,23 @@
+<h2>
+	Comments
+</h2>
+
+
+<div>
+	<form class="comment-form">
+		<input type="text" class="comment-form-name-input js-name-input" placeholder="Your Name" />
+		<br />
+		<div class="comment-form-message-input">
+			<textarea class="js-message-input" placeholder="Say something..." /></textarea>
+		</div>
+		<br />
+		<input type="submit" value="Post" />
+	</form>
+</div>
+
+<ul class="comment-list">
+	{{#each comment-list}}
+		{{@helpers/renderer.helper module="modules/comments/modules/comment.module" }}
+	{{/each}}
+</ul>
+

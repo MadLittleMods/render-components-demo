@@ -1,0 +1,34 @@
+<div class="player-area">
+
+	<div class="player-wrapper">
+		{{@helpers/renderer.helper module="modules/video-player.module" }}
+
+		<div class="player-wrapper-resize-handle ui-resizable-handle ui-resizable-s">
+			<svg class="icon">
+				<use xlink:href="#shape-resize-vertical-handle" />
+			</svg>
+		</div>
+	</div>
+
+</div>
+
+
+<div class="bottom-area">
+	<div class="info-wrapper">
+		<div class="info-box">
+			{{@helpers/renderer.helper module="modules/video-info.module" }}
+		</div>
+
+		<div class="comments">
+			{{@helpers/renderer.helper module="modules/comments.module" }}
+		</div>
+
+	</div>
+
+	<aside class="suggestion-sidebar">
+		<h2>Suggestions</h2>
+		{{#each video-suggestion-list}}
+			{{@helpers/renderer.helper module="modules/video-suggestion.module" }}
+		{{/each}}
+	</aside>
+</div>

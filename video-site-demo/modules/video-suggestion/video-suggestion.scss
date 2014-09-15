@@ -1,0 +1,44 @@
+@import "scss/includes/common";
+
+.video-suggestion
+{
+	@extend %media;
+
+	padding: 4px 0;
+
+	border-bottom: 1px solid #000000;
+
+	transition: all 0.1s linear;
+
+	&:hover 
+	{
+		background: rgba(255, 255, 255, .1);
+	}
+}
+
+.video-suggestion-thumbnail
+{
+	@extend %media-figure;
+
+	max-width: 64px;
+	margin-right: 4px;
+}
+
+.video-suggestion-body
+{
+	@extend %media-body;
+}
+
+.video-suggestion-title
+{
+	margin-top: 0;
+	margin-bottom: 4px;
+
+	overflow: hidden;
+	
+	font-size: 130%;
+	font-weight: bold;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+
+}
