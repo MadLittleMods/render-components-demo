@@ -10,7 +10,9 @@
     "del": "^0.1.3",
     "run-sequence": "^0.3.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-remove-lines": "^0.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
