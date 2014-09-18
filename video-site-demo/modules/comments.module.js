@@ -1,12 +1,8 @@
-define(['hbs!modules/comments/comments', 'css!modules/comments/comments'], function(tmpl, commentcss) {
+define(['hbs!./comments/comments', 'css!./comments/comments', './comments/comments.bits'], function(tmpl, commentscss, commentsScriptBits) {
 	return {
 		template: tmpl,
 		attach: function(options, elements) {
-			// You can do stuff here
-			// even return some methods
-			require(['modules/comments/comments.bits'], function(commentModule) {
-				commentModule.bind(elements);
-			});
+			commentsScriptBits.bind(elements);
 		}
 	};
 });

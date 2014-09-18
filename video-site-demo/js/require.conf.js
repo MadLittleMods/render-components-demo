@@ -1,5 +1,5 @@
 // The following code is wrapped in this immediately invoking function
-// Because jsHint linter does not like the "use strict" argument dangling
+// Because the jsHint linter does not like the "use strict" tag dangling
 // in the outer scope in case we concatenate a bunch of javascript together
 // that is non-strict
 (function () {
@@ -48,7 +48,8 @@
 
 	});
 
-	// Load up the first module
+	// Load up the video page
+	// This is kinda like an initialization of the application
 	require([
 		'require',
 		'jquery',

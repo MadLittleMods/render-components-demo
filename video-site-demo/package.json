@@ -1,0 +1,19 @@
+{
+  "name": "requirejs-render-components-youtube-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.8",
+    "gulp-print": "^1.1.0",
+    "gulp-sass": "^0.7.3",
+    "del": "^0.1.3",
+    "run-sequence": "^0.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

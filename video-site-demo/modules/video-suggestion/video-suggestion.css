@@ -12,6 +12,9 @@
   .video-suggestion:hover {
     background: rgba(255, 255, 255, 0.1); }
 
+.video-suggestion:last-child {
+  border-bottom: none; }
+
 .video-suggestion-thumbnail {
   max-width: 64px;
   margin-right: 4px; }

@@ -1,12 +1,12 @@
-define(['hbs!pages/video/video', 'css!pages/video/video'], function(tmpl, videocss) {
+define(['hbs!./video/video', 'css!./video/video', './video/video.bits'], function(tmpl, videocss, videoScriptBits) {
 	return {
 		template: tmpl,
 		attach: function(options, elements) {
 			// You can do stuff here
 			// even return some methods
-			require(['pages/video/video.bits'], function(videoPage) {
-				videoPage.bind(elements);
-			});
+
+			// Bind some stuff
+			videoScriptBits.bind(elements);
 		}
 	};
 });
