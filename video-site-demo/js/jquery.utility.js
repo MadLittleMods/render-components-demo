@@ -1,11 +1,11 @@
 "use strict";
 
-
-
-jQuery.fn.filterFind = function(selector) { 
-	return this.find('*')			// Take the current selection and find all descendants,
-			   .addBack()			// add the original selection back to the set 
-			   .filter(selector);	// and filter by the selector.
+ 
+// via: http://stackoverflow.com/a/22277649/796832
+jQuery.fn.filterFind = function(selector) {
+	return this.find('*')	// Take the current selection and find all descendants,
+		.addBack()			// add the original selection back to the set 
+		.filter(selector);	// and filter by the selector.
 };
 
 /**
