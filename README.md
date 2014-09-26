@@ -7,4 +7,4 @@ Awesome Module Bundling/Packaging concept!
 
 # Live Demo:
 ### [video-site-demo](https://madlittlemods.github.io/render-components-demo/video-site-demo/)
-### [bare-bones-demo](https://madlittlemods.github.io/render-components-demo/barebones-demo/)
+### [barebones-demo](https://madlittlemods.github.io/render-components-demo/barebones-demo/)
